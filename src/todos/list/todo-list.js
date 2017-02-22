@@ -1,6 +1,6 @@
 import { bindable, bindingMode } from 'aurelia-framework';
 
-import { Todo } from 'todos/todo/index';
+import { Todo } from 'todos/todo/todo';
 
 export class TodoList {
   @bindable({ defaultBindingMode: bindingMode.twoWay }) todos;

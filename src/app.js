@@ -5,10 +5,10 @@ export class App {
     this.router = router;
     config.title = 'My Aurelia App';
     config.map([
-      { route: '', name: 'todos', moduleId: 'todos/list/index' },
-      { route: 'notFound', name: 'notFound', moduleId: 'notFound/index' },
+      { route: '', name: 'todos', moduleId: 'todos/list/todo-list' },
+      { route: 'notfound', name: 'notfound', moduleId: 'notFound/not-found' },
     ]);
 
-    config.mapUnknownRoutes('notFound/index');
+    config.mapUnknownRoutes('not-found/not-found');
   }
 }
