@@ -1,6 +1,6 @@
 <template>
-  <input type="checkbox" checked.bind="todo.done">
-  <span css="text-decoration: ${todo.done ? 'line-through' : 'none'}">
-    ${todo.description}
+  <input type="checkbox" checked.bind="done">
+  <span css="text-decoration: ${done ? 'line-through' : 'none'}">
+    ${description}
   </span>
 </template>
