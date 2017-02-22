@@ -1,0 +1,6 @@
+<template>
+  <input type="checkbox" checked.bind="todo.done">
+  <span css="text-decoration: ${todo.done ? 'line-through' : 'none'}">
+    ${todo.description}
+  </span>
+</template>
